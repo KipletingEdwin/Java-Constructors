@@ -1,7 +1,8 @@
 public class Constructors {
     public static void main(String[] args) {
-        Dog myDog = new Dog();
+        Dog myDog = new Dog("Jerry", 26);
         System.out.println(myDog.name);
+        System.out.println(myDog.age);
 
 
     }
